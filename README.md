@@ -1,5 +1,7 @@
 Course: COL333(Autumn'17): Artificial Intelligence
+
 Assignment 4: FUZZY INFERENCE SYSTEM IN MATLAB
+
 Creators: NAVREET KAUR (2015TT10917), ADITYA SAHDEV(2015CS10207)
 
 This assignment implements a FIS (Fuzzy Inference System) using MATLAB and evaluates the overall performance of a student. The evaluation criteria are based on the following three input parameters. The output of the system is the performance score of a given student in range [0, 10].
