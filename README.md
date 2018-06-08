@@ -2,13 +2,11 @@ Course: COL333(Autumn'17): Artificial Intelligence
 Assignment 4: FUZZY INFERENCE SYSTEM IN MATLAB
 Creators: NAVREET KAUR (2015TT10917), ADITYA SAHDEV(2015CS10207)
 
-
 This assignment implements a FIS (Fuzzy Inference System) using MATLAB and evaluates the overall performance of a student. The evaluation criteria are based on the following three input parameters. The output of the system is the performance score of a given student in range [0, 10].
 Inputs:
 • Academics: Performance in academics are measured by CGPA (scale 0-10)
 • Sports: Total number of games won or participated
 • Co-curricular activities: the number of certificates (participation and winning certificate).
-
 
 Files:
 - FIS.m : MATLAB(main) file to be run
@@ -16,7 +14,6 @@ Files:
 
 Instructions:
 Run FIS.m in MATLAB
-
 The program asks the user to (1) input number of students which are to be compared, and (2) inputs for each student.
 Given an input in the form of CGPA, #games won/participated, #certificates of winning and participation, the system returns
 a value in the range [0,10] using FIS which reflects the score of overall performance of the student. 
@@ -28,7 +25,6 @@ Details of the FIS:
 - IMPLICATION: min
 - AGGREGATION: max
 - DEFUZZIFICATION: centroid
-
 
 INPUT VARIABLES:
 	1. Academic: Performance in academics are measured by CGPA (scale 0-10)
@@ -50,8 +46,6 @@ INPUT VARIABLES:
 			POOR 		Membership function : Gaussian
 			AVG 		Membership function : Gaussian
 			GOOD 		Membership function : Pi-shaped
-
-
 OUTPUT VARIABLES:
 	Performance:
 		Linguistic Variables:
@@ -59,15 +53,12 @@ OUTPUT VARIABLES:
 			AVG 		Membership function : Pi-shaped
 			GOOD 		Membership function : Triangular shaped
 			EXCELLENT 	Membership function : Pi-shaped
-
-
 USE OF MEMBERSHIP FUNCTIONS:
 	1. Pi- shaped membership function is used when the value is true in a broad range
 	2. Triangular shaped membership function is used when the truth value is more concentrated 
 	at a point
 	3. Gaussian and Bell shaped membership functions are used where the truth value is concentrated
 	at a point but is also spread about that point in a very small range
-
 RULES:
 	1. If (academic is poor) then (performance is poor).
 	2. If (academic is excellent) and (sports is not poor) and (cca is not poor) then (performance is excellent).
